@@ -1,5 +1,7 @@
 \documentclass[10pt]{article}
 
+\usepackage{hyperref}
+
 % remove paragraph indent
 \setlength{\parskip}{2mm}
 \setlength{\parindent}{0mm}
@@ -7,10 +9,11 @@
 \begin{document}
 
 \title{Minimal Document}
-\author{Aslak Johansen}
+\author{Aslak Johansen (\href{mailto:aslakj@gmail.com}{aslakj@gmail.com})}
 \maketitle
 
 \section{Introduction}
+\label{sec:intro}
 
 The following two paragraphs are from Through the Looking-Glass.
 
@@ -19,6 +22,10 @@ One thing was certain, that the white kitten had had nothing to do with it:—it
 The way Dinah washed her children’s faces was this: first she held the poor thing down by its ear with one paw, and then with the other paw she rubbed its face all over, the wrong way, beginning at the nose: and just now, as I said, she was hard at work on the white kitten, which was lying quite still and trying to purr—no doubt feeling that it was all meant for its good. 
 
 æøåÆØÅ
+
+\section{Conclusion}
+
+The introduction was in section \ref{sec:intro}.
 
 \end{document}
 

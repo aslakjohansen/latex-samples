@@ -13,4 +13,5 @@ mrproper: clean
 
 document.pdf: document.tex
 	pdflatex document.tex
+	pdflatex document.tex
 
